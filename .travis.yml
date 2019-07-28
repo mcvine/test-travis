@@ -24,6 +24,7 @@ install:
   
 script:
   - echo run test
+  - ls /usr/lib/libGL*
 
 notifications:
   email:
